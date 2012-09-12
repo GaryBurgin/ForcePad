@@ -2,7 +2,7 @@
 
 ForcePad is a free, unofficial, unsupported, open-source native iPad app from Salesforce Labs. It's the easiest way to browse your apps, tabs, and records in any Salesforce environment. Create, edit, clone, and delete standard and custom records. Supports every page layout, every field, every related list, every Group Edition thru Unlimited Edition org. With ForcePad, you're an unstoppable force for the cloud! 
 
-[![ForcePad is on the App Store!](http://github.com/ForceDotComLabs/Salesforce-for-iPad/raw/master/appstore.png)](http://itunes.apple.com/us/app/salesforce-for-ipad/id458454196?mt=8) &nbsp;&nbsp;&nbsp;&nbsp; [![ForcePad is on the Salesforce Appexchange!](http://github.com/ForceDotComLabs/Salesforce-for-iPad/raw/master/appexchange.png)](http://appexchange.salesforce.com/listingDetail?listingId=a0N300000055lKrEAI)
+[![ForcePad is on the App Store!](http://github.com/ForceDotComLabs/ForcePad/raw/master/appstore.png)](http://itunes.apple.com/us/app/salesforce-for-ipad/id458454196?mt=8) &nbsp;&nbsp;&nbsp;&nbsp; [![ForcePad is on the Salesforce Appexchange!](http://github.com/ForceDotComLabs/ForcePad/raw/master/appexchange.png)](http://appexchange.salesforce.com/listingDetail?listingId=a0N300000055lKrEAI)
 
 by Jonathan Hersh ([Email](mailto:jhersh@salesforce.com), [GitHub](https://github.com/jhersh), [Twitter](https://twitter.com/jhersh)) with special thanks to Wiebke and Brian in Salesforce UX, Ciara for graphic design and UX, plus Darrell, Eugene, Clarence, Reid, Mike, Simon, Todd, and Kevin.
 
@@ -66,7 +66,7 @@ v2.2.1 - Released 2/20/2012
 
 v2.2 - Released 2/15/2012
 
-- Initial release of ForcePad
+- Initial release of Salesforce for iPad
 - Create, edit, clone, delete records for (almost all) standard and (all) custom objects
 - Bug fixes, UI updates
 
@@ -219,8 +219,6 @@ Much is there to do on ForcePad. Some unsolved problems:
 
 Some other things to do:
 
-- `RecentRecordsController` should do additional metadata describes on objects because the response contains the user's recently viewed records, and merge those results in with (or do away entirely with) the current recent records feature, which only includes records accessed on ForcePad. 
-- `ObjectLookupController` should display as default, before the user searches, a list of recent records of the type for which the user is searching.
 - *OpportunityLineItems* and *QuoteLineItems* need special handling (price books, products) and are not available to create or edit in the app today.
 - ForcePad doesn't support creating or editing objects that do not have page layouts (e.g. contact roles, account teams, etc) with the exception of Case Comments, for which I added a special hack to support. Nor does the app support viewing objects without page layouts, except in related lists.
 - Object list views have an API, but the API requires sysadmin (MAD/VAD). Not workable for normal users.
